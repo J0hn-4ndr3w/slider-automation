@@ -62,7 +62,12 @@ body{
   }
 
 
- @media (max-width: 1200px){
+@media (max-width: 1200px){
+    .carousel{
+      width: 150%;
+    }
+  }
+  @media (-webkit-max-width: 1200px){
     .carousel{
       width: 150%;
     }
@@ -70,6 +75,11 @@ body{
 
 
   @media (max-width: 850px){
+    .carousel{
+      width: 150%;
+    }
+  }
+  @media (-webkit-max-width: 850px){
     .carousel{
       width: 150%;
     }
@@ -90,6 +100,20 @@ body{
         }
       }
   }
+  @media (-webkit-max-width: 600px){
+    .carousel{
+      width: 250%;
+    }
+
+    @keyframes slide {
+      from {
+          transform: translateX(60%);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+  }
 
 
   @media (max-width: 520px){
@@ -97,4 +121,9 @@ body{
       width: 450%;
     }
 
+  }
+  @media (-webkit-max-width: 520px){
+    .carousel{
+      width: 450%;
+    }
   }

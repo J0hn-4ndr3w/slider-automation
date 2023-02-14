@@ -124,4 +124,4 @@ function nextLoad(){
   
   }
   
-    setInterval(nextLoad, 5000);
+    setInterval(nextLoad, 3000);

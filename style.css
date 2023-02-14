@@ -93,7 +93,7 @@ body{
 
     @keyframes slide {
       from {
-          transform: translateX(60%);
+          transform: translateX(30%);
         }
         to {
           transform: translateX(-100%);
@@ -107,7 +107,7 @@ body{
 
     @keyframes slide {
       from {
-          transform: translateX(60%);
+          transform: translateX(30%);
         }
         to {
           transform: translateX(-100%);
